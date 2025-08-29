@@ -42,8 +42,8 @@ body {
 }
 
 .card {
-  width: 250px;
-  height: 250px;
+  width: 300px;
+  padding: 16px;
 }
 
 .cards {
@@ -51,7 +51,6 @@ body {
   flex-wrap: wrap;
   padding: 48px;
   gap: 16px;
-  align-items: flex-start;
 }
 
 .sidebar {
