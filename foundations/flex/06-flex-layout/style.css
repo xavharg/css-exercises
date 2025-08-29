@@ -13,7 +13,6 @@ body {
 
 img {
   width: 600px;
-  min-width: 0px;
 }
 
 button {
@@ -21,6 +20,7 @@ button {
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 8px 12px;
 }
 
 input {
@@ -42,7 +42,7 @@ ul {
 }
 
 .footer {
-  background-color: lightgray;
+  background-color: #eeeeee;
 }
 
 .header,
@@ -58,6 +58,6 @@ ul {
   gap: 16px;
 }
 
-.content {
-  flex-shrink: 1;
+.buttons {
+  padding: 16px;
 }
